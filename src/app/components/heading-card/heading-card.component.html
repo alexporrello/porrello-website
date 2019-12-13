@@ -1,0 +1,8 @@
+<mat-card *ngIf="resume">
+    <h1>{{resume.name}}</h1>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <h2>{{resume.tagline}}</h2>
+
+    <app-social-links [linkedIn]="resume.links.LinkedIn" [gitHub]="resume.links.GitHub"></app-social-links>
+</mat-card>

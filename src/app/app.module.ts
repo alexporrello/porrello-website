@@ -9,13 +9,19 @@ import { HomeComponent } from './components/home/home.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule, MatCardModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatDividerModule } from '@angular/material';
+import { HeadingCardComponent } from './components/heading-card/heading-card.component';
+import { PositionComponent } from './components/position/position.component';
+import { EducationComponent } from './components/education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SocialLinksComponent
+    SocialLinksComponent,
+    HeadingCardComponent,
+    PositionComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +29,8 @@ import { MatButtonModule, MatCardModule } from '@angular/material';
     HttpClientModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar>
+            <img src="{{position['employer-icon']}}">
+        </div>
+        <mat-card-title>{{position.employer}}</mat-card-title>
+        <mat-card-subtitle>{{ getLength() }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+        <div *ngFor="let thisPosition of position.position">
+            <h3>{{ thisPosition.title }}</h3>
+
+            <p class="position-subtitle">
+                {{ thisPosition['start-date'] }} - {{ thisPosition['end-date'] }} <br>
+                {{ thisPosition.location }}
+            </p>
+
+            <ul *ngIf="thisPosition.description.length > 1">
+                <li *ngFor="let thisItem of thisPosition.description">
+                    {{thisItem}}
+                </li>
+            </ul>
+
+            <div *ngIf="thisPosition.description.length == 1">
+                {{thisPosition.description[0]}}
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

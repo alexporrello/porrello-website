@@ -1,20 +1,10 @@
-.profile-picture {
-    width: 150px;
-    border-radius: 100px;
+.content {
+    color: white;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
-    margin-top: 50px !important;
-}
-
-h2 {
-    margin-bottom: 60px;
-}
-
-mat-card {
-    text-align: center;
-    margin: 10px;
-    padding-bottom: 35px;
-    background-color: #3f51b5;
-    color: white;
+    font-size: 25px;
 }

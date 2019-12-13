@@ -1,10 +1,11 @@
-<mat-card *ngIf="resume">
-    <h1>{{resume.name}}</h1>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<app-heading-card [resume]=resume></app-heading-card>
 
-    <!-- <img src="{{resume.photo}}" class="profile-picture"> -->
+<div class="content" *ngIf="resume">
+    <h1>Experience</h1>
+    <app-position *ngFor="let position of resume.jobs" [position]=position></app-position>
+</div>
 
-    <h2>{{resume.tagline}}</h2>
-
-    <app-social-links [linkedIn]="resume.links.LinkedIn" [gitHub]="resume.links.GitHub"></app-social-links>
-</mat-card>
+<div class="content" *ngIf="resume">
+    <h1>Education</h1>
+    <app-education *ngFor="let education of resume.education" [education]=education></app-education>
+</div>

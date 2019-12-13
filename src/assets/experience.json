@@ -11,8 +11,10 @@
         {
             "university": "The University of Dallas",
             "university-icon": "https://media.licdn.com/dms/image/C4E0BAQEbZrLtEBHf-A/company-logo_100_100/0?e=1583971200&v=beta&t=_ZApnm4Z5QF1Cyz6_Ib54-dPI3y4CX5GvwuxmZMym2c",
+            "location":"Dallas, TX",
             "area-of-study": "English Literature BA, Computer Science Minor",
-            "dates": "2013-2017"
+            "dates": "2013 - 2017",
+            "description": []
         }
     ],
     "jobs": [
@@ -55,7 +57,7 @@
         },
         {
             "employer": "OPeNDAP.org",
-            "employer-icon": null,
+            "employer-icon": "../../assets/extension-icon.png",
             "status": "Contract",
             "position": [
                 {

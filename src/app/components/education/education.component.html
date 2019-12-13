@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-card-header>
+        <div mat-card-avatar>
+            <img src="{{education['university-icon']}}">
+        </div>
+        <mat-card-title>{{education.university}}</mat-card-title>
+        <mat-card-subtitle>{{ education.dates }}</mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+            <h3>{{ education['area-of-study'] }}</h3>
+
+            <p class="position-subtitle">
+                {{ education.location }}
+            </p>
+
+            <ul *ngIf="education.description.length > 1">
+                <li *ngFor="let thisItem of education.description">
+                    {{thisItem}}
+                </li>
+            </ul>
+    </mat-card-content>
+</mat-card>
