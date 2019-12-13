@@ -9,7 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { SocialLinksComponent } from './components/social-links/social-links.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule, MatCardModule, MatDividerModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatDividerModule, MatMenuModule, MatToolbarModule } from '@angular/material';
 import { HeadingCardComponent } from './components/heading-card/heading-card.component';
 import { PositionComponent } from './components/position/position.component';
 import { EducationComponent } from './components/education/education.component';
@@ -30,7 +30,9 @@ import { EducationComponent } from './components/education/education.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatMenuModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
