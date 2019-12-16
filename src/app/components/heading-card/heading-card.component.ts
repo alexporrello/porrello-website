@@ -18,4 +18,15 @@ export class HeadingCardComponent {
       }
     }
   }
+
+  getTagline() {
+    if(this.resume.tagline === null) {
+      let title = this.resume.jobs[0].position[0].title;
+      let employer = this.resume.jobs[0].employer;
+
+      return `${title} at ${employer}`;
+    } else {
+      return this.resume.tagline;
+    }
+  }
 }

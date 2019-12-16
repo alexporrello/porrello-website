@@ -38,7 +38,7 @@ mat-toolbar {
     z-index: 15;
     
     h1 {
-        margin-top: 0px;
+        margin-top: 10px;
         font-weight: 300;
     }
     
@@ -50,7 +50,7 @@ mat-toolbar {
     }
 
     app-social-links {
-        margin-left: 500px;
+        margin-left: auto;
         padding-top: 7px;
     }
 }
