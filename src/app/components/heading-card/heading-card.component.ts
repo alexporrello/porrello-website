@@ -11,7 +11,7 @@ export class HeadingCardComponent {
 
   constructor() {
     window.onscroll = () => {
-      if(window.pageYOffset > 220) {
+      if(window.pageYOffset > 360) {
         document.getElementById("scroll-nav").style.top = "-10px";
       } else {
         document.getElementById("scroll-nav").style.top = "-80px";

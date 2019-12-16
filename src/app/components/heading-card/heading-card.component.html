@@ -1,6 +1,9 @@
 <div *ngIf="resume">
     <div class="heading-badge mat-elevation-z6">
         <h1>{{resume.name}}</h1>
+
+        <img class="profile-picture" src="{{resume.photo}}">
+
         <h2>{{getTagline()}}</h2>
 
         <app-social-links [linkedIn]="resume.links.LinkedIn" [gitHub]="resume.links.GitHub"></app-social-links>

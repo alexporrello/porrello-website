@@ -1,11 +1,41 @@
-<app-heading-card [resume]=resume></app-heading-card>
+<div>
+    <app-heading-card [resume]=resume></app-heading-card>
 
-<div class="content" *ngIf="resume">
-    <h1>Experience</h1>
-    <app-position *ngFor="let position of resume.jobs" [position]=position></app-position>
-</div>
+    <mat-card class="content mat-elevation-z2">
+        <h1>Biography</h1>
 
-<div class="content" *ngIf="resume">
-    <h1>Education</h1>
-    <app-education *ngFor="let education of resume.education" [education]=education></app-education>
+        <mat-card-content>
+            <p>
+                Alexander is a web development engineer at Kapsch TrafficCom North America,
+                a provider of intelligent transportation systems in several fields, including
+                tolling and smart urban mobility. He contributes code that is written
+                primarily in JavaScript, TypeScript, HTML, and CSS to Kapsch’s enterprise-level
+                single-page applications, using Angular CLI for the front-end
+                and node.js for the back-end.
+            </p>
+            <p>
+                Prior to joining the UI/UX team, he was a technical writer at Kapsch, where he
+                coordinated throughput for five active projects, developed in-house training materials,
+                and performed heavy copyedits, including rewriting ESL content. He was also
+                the primary contributor to the technical writing team’s documentation development toolchain.
+                He developed a VSTO Word Add-in, written in C#, that streamlines and automates
+                document-control-related tasks, and he also created a document-tracking-friendly front-end for
+                Kapsch's Jira.
+            </p>
+            <p>
+                Alexander has many interests and hobbies outside of work, including woodworking and writing fiction.
+                He is currently working on his fourth novel, <i>Forgive Me, Father</i>, which he hopes to publish.
+            </p>
+        </mat-card-content>
+    </mat-card>
+
+    <mat-card class="content mat-elevation-z2" *ngIf="resume">
+        <h1>Experience</h1>
+        <app-position *ngFor="let position of resume.jobs" [position]=position></app-position>
+    </mat-card>
+
+    <mat-card class="content mat-elevation-z2" *ngIf="resume">
+        <h1>Education</h1>
+        <app-education *ngFor="let education of resume.education" [education]=education></app-education>
+    </mat-card>
 </div>

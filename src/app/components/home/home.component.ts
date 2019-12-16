@@ -15,4 +15,8 @@ export class HomeComponent {
       this.resume = data;
     });
   }
+
+  getFirstName() {
+    return this.resume.split(" ")
+  }
 }
