@@ -1,6 +1,6 @@
 {
     "name": "Alexander Porrello",
-    "photo": "https://media.licdn.com/dms/image/C4D03AQGkIejlFQlA3Q/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=zsFcYDfoljkjOh8NGFAghoUT-VJ_DpfTS4dW332KH94",
+    "photo": "../../assets/profile.jpg",
     "tagline": null,
     "location": "Austin, TX",
     "links": {
@@ -10,7 +10,7 @@
     "education": [
         {
             "university": "The University of Dallas",
-            "university-icon": "https://media.licdn.com/dms/image/C4E0BAQEbZrLtEBHf-A/company-logo_100_100/0?e=1583971200&v=beta&t=_ZApnm4Z5QF1Cyz6_Ib54-dPI3y4CX5GvwuxmZMym2c",
+            "university-icon": "../../assets/ud.png",
             "location":"Dallas, TX",
             "area-of-study": "English Literature BA, Computer Science Minor",
             "dates": "2013 - 2017",
@@ -20,7 +20,7 @@
     "jobs": [
         {
             "employer": "Kapsch TrafficCom North America",
-            "employer-icon": "https://media.licdn.com/dms/image/C4E0BAQEH74G8i76mmg/company-logo_100_100/0?e=1583971200&v=beta&t=RotopYKUX7SEfhz2TmPG5GmsUQ1drjJm6zGqXJEKkDE",
+            "employer-icon": "../../assets/kapsch.jpg",
             "status": "Full-time",
             "position": [
                 {
@@ -57,11 +57,11 @@
         },
         {
             "employer": "OPeNDAP.org",
-            "employer-icon": "../../assets/extension-icon.png",
+            "employer-icon": "../../assets/od.png",
             "status": "Contract",
             "position": [
                 {
-                    "title": "Frontend Web Developer",
+                    "title": "Full Stack Web Developer",
                     "start-date": "10/2019",
                     "end-date": "Present",
                     "location": "Austin, TX",
@@ -86,7 +86,7 @@
         },
         {
             "employer": "National Instruments",
-            "employer-icon": "https://media.licdn.com/dms/image/C560BAQGFU2W67dsPdg/company-logo_100_100/0?e=1583971200&v=beta&t=munz0yZSXRssDhFVLei69KFBKPrVcjj0zxbqJAO16kY",
+            "employer-icon": "../../assets/ni.jpg",
             "status": "Contract",
             "position": [
                 {
@@ -103,7 +103,7 @@
         },
         {
             "employer": "Faith Academy of Marble Falls",
-            "employer-icon": "https://media.licdn.com/dms/image/C4E0BAQEwhHXcCmulCg/company-logo_100_100/0?e=1583971200&v=beta&t=4lxDLWiXCIK6viM7mhww_Z4osL7KTeJZ8xbhfr2XwfQ",
+            "employer-icon": "../../assets/faith.png",
             "status": "Contract",
             "position": [
                 {
@@ -119,7 +119,7 @@
         },
         {
             "employer": "GamingSins",
-            "employer-icon": "https://media.licdn.com/dms/image/C560BAQFWOfDVm7nHeg/company-logo_100_100/0?e=1583971200&v=beta&t=8FAxKgzy_bKdJT3jMHBcS4osfIyzhCwGIusUmltS30s",
+            "employer-icon": "../../assets/gs.png",
             "status": "Self-employed",
             "position": [
                 {
@@ -138,7 +138,7 @@
         },
         {
             "employer": "The University of Dallas",
-            "employer-icon": "https://media.licdn.com/dms/image/C4E0BAQEbZrLtEBHf-A/company-logo_100_100/0?e=1583971200&v=beta&t=_ZApnm4Z5QF1Cyz6_Ib54-dPI3y4CX5GvwuxmZMym2c",
+            "employer-icon": "../../assets/ud.png",
             "status": "Internship",
             "position": [
                 {
